@@ -7,7 +7,6 @@ function validateFieldNumber (campoA, campoB) {
 
 function reloadPag() {
     window.location.reload();
-    window.location.replace();
 } 
 
 form.addEventListener('submit', function(e) {
