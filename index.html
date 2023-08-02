@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação HTML com JS</title>
+    <link rel="icon" type="image/png" href="./images/js.png">
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>Validação dos campos A e B</h1>
+            <form id="form-validate">
+                <input type="number" id="field-A" required placeholder='Insira um valor no campo "A"' />
+                <p class="error-message">
+                    O valor do campo "B" precisa ser superior ao valor do campo "A"
+                </p>
+                <input type="number" id="field-B" required placeholder='Insira um valor no campo "B"'/>
+                <button type="submit">Validar</button>
+                <button type="button" onclick="reloadPag()">Limpar</button>
+            </form>
+            <p class="success-message"></p>
+        </div>
+    </nav> 
+        <script src="./main.js"></script>
+    </body>
